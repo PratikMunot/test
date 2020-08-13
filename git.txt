@@ -1,0 +1,24 @@
+If you are setting up git first time then run these 2 commands 
+no need to run these commands afterwards
+
+1.Setting up usename 
+git config --global user.name "Pratik Munot"
+
+2 Setting up emailid
+git config --global user.email "pmunot11@gmail.com"
+
+3 You can optionally check if all the credentials were set correctly
+git config --global user.name
+git config --global user.email
+
+4. steps to add files to repositories
+git init
+git add .
+git commit -m "first commit" 
+git remote add somename git_repo_url
+git push -f same_name_as_above master 
+
+
+5 optionally you can also check the status in between to know what files are left to commit n what not and what changes are made 
+git status
+
